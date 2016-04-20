@@ -1,0 +1,7 @@
+=== RFC 6902 Patch test for Spring Boot 1.4.0.M2
+
+Shows a _replace_ operation e.g. ```[{"op":"replace","path":"/payment","value":{"price":"EUR 19.00","frequency":"Monthly"}}]``` failing when using Spring Boot 1.4.0.M2. The _add_ operation will also fail.
+
+Fire the test using ```./gradlew test```. The test will pass if springBootVersion is set to ```1.4.0.M1``` in build.grade.
+
+Tracking https://github.com/spring-projects/spring-boot/issues/5742
