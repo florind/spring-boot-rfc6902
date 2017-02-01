@@ -5,3 +5,5 @@ Shows a _replace_ operation e.g. ```[{"op":"replace","path":"/payment","value":{
 Fire the test using ```./gradlew test```. The test will pass if springBootVersion is set to ```1.4.0.M1``` in build.grade.
 
 Tracking https://github.com/spring-projects/spring-boot/issues/5742
+
+*Note 01.02.2017: The test passes when using Spring Boot 1.4.x.RELEASE or 1.5.x.RELEASE*
